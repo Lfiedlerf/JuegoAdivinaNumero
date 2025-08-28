@@ -1,0 +1,37 @@
+# === Archivos y carpetas de Eclipse/STS ===
+.project
+.classpath
+.settings/
+.springBeans
+.apt_generated/
+.factorypath
+
+# === Archivos compilados ===
+bin/
+build/
+target/
+
+# === Archivos temporales del sistema ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# === Archivos de Maven/Gradle (si se usan) ===
+.mvn/
+.mvnw
+.mvnw.cmd
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Configuración de IDEs alternativos ===
+.idea/
+*.iml
+.vscode/
+
+# === Archivos de cobertura de pruebas ===
+/jacoco.exec
+/test-output/
+.surefire-*
